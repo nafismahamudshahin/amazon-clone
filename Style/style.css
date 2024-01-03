@@ -121,3 +121,26 @@
     font-size: 30px;
     color: orange;
 }
+/*----------------------- penel styles --------------------*/
+.penel{
+    background-color: #191a1a;
+    display: flex;
+    column-gap: 20px;
+    font-weight: 600;
+}
+.penel-side-menu{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #FFF;
+    padding: 0px 10px;
+}
+.penel-ops{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+.penel-ops p{
+    padding: 10px 10px;
+    color: #FFFFFF;
+}
