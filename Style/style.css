@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: border-box; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+/* --------------------Left side styles----------------------- */
+.left-side{
+    display: flex;
+}
+/* brand logo style */
+.logo-container{
+    /* height: 50px; */
+    width: 100px;
+}
+.logo{
+    background-image: url("/images/logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid #d6d6d6;
+}
+
+/* nav deliver location */
+.nav-deliver-address{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 6px;
+}
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+}
+.add-second{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.location-icon{
+    font-size: 1.4rem;
+}
+
+/* ---------------------- nav Middle input styles ------------------ */
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.search-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #CCCCCC;
+    width: 60px;
+    border: none;
+
+}
+
+.input-search{
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    font-size: large;
+}
+.search-icon{
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    background-color: #beacac;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+}
+/* hover the two elements */
+.search-icon:hover ,.search-option:hover{
+    background-color: #a38b8b;
+}
+.search-icon i{
+    font-size: 20px;
+    color: #0f1111;
+}
+
+/* ------------------------ Navbar Right side  styles ------------------------------- */
+.right-side{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.language-container,.account ,.retums-orders,.card{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+}
+/* language selection option */
+.language-option{
+    margin: 5px;
+    width: 60px;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+/*  */
+.card i{
+    font-size: 30px;
+    color: orange;
+}
