@@ -151,7 +151,7 @@
     padding: 10px 10px;
     color: #FFFFFF;
 }
-/* slider */
+/* animated slider using keyframes */
 main{
     margin: 0px 10px;
 }
@@ -165,4 +165,15 @@ main{
     0%{ background-image: url("/banner-1.png");}
     30%{ background-image: url("/banner-2.png");}
     70%{ background-image: url("/banner-3.png");}
+}
+.slider-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.previus-btn,.next-btn{
+    border: 2px solid red;
+    height: 200px;
+    width: 85px;
+    border-radius: 20px;
 }
