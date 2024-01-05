@@ -166,6 +166,7 @@ main{
     30%{ background-image: url("/banner-2.png");}
     70%{ background-image: url("/banner-3.png");}
 }
+/* slider control btn */
 .slider-btn{
     display: flex;
     justify-content: space-between;
