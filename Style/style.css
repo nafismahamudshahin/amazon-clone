@@ -159,7 +159,7 @@ main{
     height: 550px;
     background-image: url("/banner-1.png");
     background-size: cover;
-    animation: slider 10s infinite linear;
+    animation: slider 60s infinite linear;
 }
 @keyframes slider {
     0%{ background-image: url("/banner-1.png");}
@@ -173,8 +173,60 @@ main{
     padding: 10px;
 }
 .previus-btn,.next-btn{
-    border: 2px solid red;
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
     width: 85px;
     border-radius: 20px;
+    transition: all 2s;
+}
+.previus-btn:hover,.next-btn:hover{
+    border: 2px solid orange;
+}
+
+/* items container */
+main{
+    background-color: #e2e7e6;
+}
+.shop-contianer{
+    margin: -280px 15px 0px 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.item{
+    padding: 20px;
+    background-color: white;
+}
+.item-title{
+    font-size: 1.5rem;
+    /* margin-bottom: 8px; */
+}
+.item-images{
+    width: 100%;
+    margin: 8px 0px 12px 0px;
+}
+.item-images .img-fluid{
+    width: 100%;
+    height: 240px;
+}
+.item-btn{
+    text-decoration: none;
+    font-weight: 500;
+    color: #C7511F;
+}
+.four-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 240px;
+}
+.four-item img{
+    width: 100%;
+}
+.img{
+    height: auto;
+}
+.item-btn:hover{
+    text-decoration: underline;
 }
