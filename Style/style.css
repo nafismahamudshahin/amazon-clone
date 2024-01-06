@@ -128,7 +128,7 @@
 .retums-orders,
 .card {
     display: flex;
-    padding: 8px;
+    /* padding: 8px; */
     align-items: center;
     justify-content: center;
     height: 35px;
@@ -332,7 +332,7 @@ main {
     display: flex;
     gap: 80px;
     justify-content: center;
-    margin: 10px 0px;
+    margin-top: 10px;
 }
 
 .footer-brand img {
@@ -355,11 +355,36 @@ main {
     border: 1px solid white;
 }
 
-/*----------------- Media Quares ------------------------*/
+/* footer panel 4 */
+.footer-panel4 {
+    background-color: #0f1111;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+/*----------------- Media Quares for responsive  ------------------------*/
 @media (max-width:764px) {
+
+    /* nav search */
+    .nav-search {
+        display: none;
+    }
+
+    .sliders-container {
+        height: auto;
+    }
+
+    /* slider button */
+    .previus-btn,
+    .next-btn {
+        height: 50px;
+        width: 55px;
+    }
 
     /* items section */
     .shop-contianer {
+        margin: 0px 15px 0px 15px;
         grid-template-columns: repeat(1, 1fr);
     }
 
